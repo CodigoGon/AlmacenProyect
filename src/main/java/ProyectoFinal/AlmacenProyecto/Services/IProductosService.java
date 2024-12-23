@@ -15,4 +15,5 @@ public interface IProductosService {
                             String marcaNueva,
                             Double costoNuevo,
                             Double cantidadNueva);
+    public List<Productos> faltaStock();
 }

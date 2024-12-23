@@ -38,7 +38,7 @@ public class ClienteService implements IClienteService{
     }
 
     @Override
-    public void editCliente(Long idOriginal, String nombreNuevo, String apellidoNuevo, Long dniNuevo) {
+    public void editCliente(Long idOriginal, String nombreNuevo, String apellidoNuevo, String dniNuevo) {
         Cliente cliedit = this.findCliente(idOriginal);
         cliedit.setNombre(nombreNuevo);
         cliedit.setApellido(apellidoNuevo);

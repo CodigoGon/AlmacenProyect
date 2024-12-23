@@ -1,6 +1,7 @@
 package ProyectoFinal.AlmacenProyecto.Services;
 
 
+import ProyectoFinal.AlmacenProyecto.DTO.MayorVentaDTO;
 import ProyectoFinal.AlmacenProyecto.Model.Cliente;
 import ProyectoFinal.AlmacenProyecto.Model.Productos;
 import ProyectoFinal.AlmacenProyecto.Model.Ventas;
@@ -18,4 +19,5 @@ public interface IVentasService {
                           Double nuevoTotal,
                           List<Productos> nuevaLista,
                           Cliente nuevoCli);
+    public MayorVentaDTO findMayorVenta();
 }

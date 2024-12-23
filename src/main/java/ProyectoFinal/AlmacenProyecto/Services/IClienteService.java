@@ -12,5 +12,5 @@ public interface IClienteService {
     public void editCliente(Long idOriginal,
                             String nombreNuevo,
                             String apellidoNuevo,
-                            Long dniNuevo);
+                            String dniNuevo);
 }
